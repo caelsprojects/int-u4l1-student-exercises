@@ -7,7 +7,9 @@ let messages = document.querySelector(".messages");
 
 submitButton.addEventListener("click", function() {
     // 4. Declare a variable to store the value of the input
+ let inputfield = document.querySelector("input").value
     // 5. Use the console to check a value is saved.
+    console.log(inputfield)
     //  - Type something and click the button to confirm it works!
 
 
